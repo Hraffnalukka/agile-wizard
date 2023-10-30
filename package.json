@@ -1,5 +1,5 @@
 {
-  "name": "dl-agile-assessment",
+  "name": "agile-wizard",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -27,7 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "main -b master -d build"
+    "deploy": "gh-pages -b main -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -47,7 +47,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://hraffnalukka.github.io/dl-agile-assessment/",
+  "homepage": "https://hraffnalukka.github.io/agile-wizard/",
   "devDependencies": {
     "gh-pages": "^6.0.0"
   }
